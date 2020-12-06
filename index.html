@@ -2,6 +2,7 @@
   <head>
     <title>sprout</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/bhc0kjo.css">
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
 
     <!-- Required meta tags -->
@@ -10,49 +11,84 @@
   </head>
 
   <body>
-    <div> 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">sprout</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <div style="height: calc(100vh - 56px)">
-        <div id="carousel" class="carousel slide" data-ride="carousel" style="height:100%; overflow: hidden">
-          <div class="carousel-inner" style="height:100%">
-            <div class="carousel-item active" style="height: 100%">
-              <img src="images/bg-about.jpg" class="d-block fill-carousel">
-            </div>
-            <div class="carousel-item">
-              <img src="images/bg-bakery.jpg" class="d-block fill-carousel">
-            </div>
-            <div class="carousel-item">
-              <img src="images/bg-main.jpg" class="d-block fill-carousel">
-            </div>
+    <div class="container-fluid my-container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="fixed-nav">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link disabled nav-title" href="#" tabindex="-1" aria-disabled="true">jenny chen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled nav-text" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li>
+              <li class="nav-item">
+                <a id="filter-all" class="nav-link my-link active" href="#">everything</a>
+              </li>
+              <li class="nav-item">
+                <a id="filter-architecture" class="nav-link my-link" href="#">architecture</a>
+              </li>
+              <li class="nav-item">
+                <a id="filter-illustrations" class="nav-link my-link" href="#">illustrations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled nav-text" href="#" tabindex="-1" aria-disabled="true">-</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-link" href="#">contact</a>
+              </li>
+            </ul>
           </div>
-          <!-- TODO: change color of control arrows -->
-          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        </div>
+        <div class="col-sm-9 shuffle-container">
+        <div class="row my-shuffle">
+          <figure class="image-item col-md-4" data-groups="[&quot;illustrations&quot;]">
+            <div class="aspect">
+              <div class="aspect__inner"><img class="my-image" src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
+            </div>
+          </figure>
+          <figure class="image-item col-md-4" data-groups="[&quot;illustrations&quot;]">
+            <div class="aspect">
+              <div class="aspect__inner"><img class="my-image" src="https://images.unsplash.com/photo-1484402628941-0bb40fc029e7?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=6237e62a10fa079d99b088b0db0144ac" obj.alt="obj.alt"/></div>
+            </div>
+          </figure>
+          <figure class="image-item col-md-4" data-groups="[&quot;illustrations&quot;]">
+            <div class="aspect">
+              <div class="aspect__inner"><img class="my-image" src="https://images.unsplash.com/uploads/1413142095961484763cf/d141726c?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=86dc2dcb74588b338dfbb15d959c5037" obj.alt="obj.alt"/></div>
+            </div>
+          </figure>
+          <figure class="image-item col-md-4" data-groups="[&quot;architecture&quot;]">
+            <div class="aspect">
+              <div class="aspect__inner"><img class="my-image" src="https://images.unsplash.com/photo-1465414829459-d228b58caf6e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=7ab1744fe016fb39feb2972244246359" obj.alt="obj.alt"/></div>
+            </div>
+          </figure>
+          <figure class="image-item col-md-4" data-groups="[&quot;architecture&quot;]">
+            <div class="aspect">
+              <div class="aspect__inner"><img class="my-image" src="https://images.unsplash.com/photo-1465414829459-d228b58caf6e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=7ab1744fe016fb39feb2972244246359" obj.alt="obj.alt"/></div>
+            </div>
+          </figure>
+          <figure class="image-item col-md-4" data-groups="[&quot;architecture&quot;]">
+            <div class="aspect">
+              <div class="aspect__inner"><img class="my-image" src="https://images.unsplash.com/photo-1465414829459-d228b58caf6e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=7ab1744fe016fb39feb2972244246359" obj.alt="obj.alt"/></div>
+            </div>
+          </figure>
+          <figure class="image-item col-md-4" data-groups="[&quot;architecture&quot;]">
+            <div class="aspect">
+              <div class="aspect__inner"><img class="my-image" src="https://images.unsplash.com/photo-1465414829459-d228b58caf6e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=7ab1744fe016fb39feb2972244246359" obj.alt="obj.alt"/></div>
+            </div>
+          </figure>
+          <div class="col-md-1 my-sizer-element"></div>
         </div>
       </div>
-    </div>  
+    </div>
 
+    <script src="https://unpkg.com/shufflejs@5.2.3/dist/shuffle.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
   </body>
 </html>

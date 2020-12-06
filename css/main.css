@@ -1,6 +1,111 @@
-.fill-carousel{
+.my-shuffle {
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 576px) {
+    .fixed-nav {
+        position: fixed;
+        margin-top: 52px;
+    }
+
+    .my-container {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+.shuffle-container {
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.image-item {
+    margin-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .shuffle-container {
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+
+    .image-item {
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .shuffle-container {
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image-item {
+        margin-bottom: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.nav-title {
+    color: #333 !important;
+    font-size: 1.5rem;
+    font-family: novel-sans-pro;
+    font-weight: 700;
+}
+
+.nav-text {
+    color: #333 !important;
+    font-family: novel-sans-pro;
+}
+
+.my-link:hover,
+.my-link.active {
+    color: #f8674f !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    font-family: novel-sans-pro
+}
+
+.my-link {
+    color: #999 !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    font-family: novel-sans-pro
+}
+
+.aspect {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+.aspect__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.aspect--16x9 {
+  padding-bottom: 56.25%;
+}
+
+.my-image {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
 }
