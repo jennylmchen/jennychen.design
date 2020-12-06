@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+.fixed-nav {
+    margin-top: 20px;
+}
+
 @media screen and (min-width: 576px) {
     .fixed-nav {
         position: fixed;
