@@ -1,7 +1,7 @@
 var myShuffle = new Shuffle(document.querySelector('.my-shuffle'), {
-  itemSelector: '.image-item',
-  sizer: '.my-sizer-element',
-  buffer: 1,
+	itemSelector: '.image-item',
+	sizer: '.my-sizer-element',
+	buffer: 1
 });
 
 $('#filter-all').click(function() {
@@ -25,9 +25,10 @@ $('#filter-illustrations').click(function() {
 	$('#filter-illustrations').addClass('active');
 });
 
-$('input[name="shuffle-filter"]').on('change', function (evt) {
-  var input = evt.currentTarget;
-  if (input.checked) {
-    myShuffle.filter(input.value);
-  }
-});
+function projects(name) {
+	newUrl = 'projects/' + name + '/';
+	if (window.location.protocol == 'file:') {
+		newUrl += 'index.html';
+	}
+	location.href = newUrl;
+}
