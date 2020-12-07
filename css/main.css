@@ -143,9 +143,19 @@
     object-position: center;
 }
 
-.page-nav-container {
+.page-nav {
     padding: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.page-nav a {
+    color: #333 !important;
+    font-family: novel-sans-pro;
+}
+
+.page-nav a:hover {
+    color: #f8674f !important;
+    font-family: novel-sans-pro;
 }

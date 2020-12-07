@@ -96,9 +96,9 @@ function page(name, showPageNav=true) {
     }
 
     if (!showPageNav) {
-        $('.page-nav-container').hide();
+        $('.page-nav').hide();
     } else {
-        $('.page-nav-container').show();
+        $('.page-nav').show();
         setPageNav(name);
     }
 }
@@ -128,7 +128,7 @@ function setPageNav(name) {
 
     if (idx > 0) {
         var prevPage = displayedPages[idx - 1];
-        $('#prev-page').html(`<- ${prevPage.title}`);
+        $('#prev-page').html(`&#8592; ${prevPage.title}`);
         $('#prev-page').attr('onclick', `page("${prevPage.name}")`);
         $('#prev-page').css('visibility', 'visible');
     } else {
@@ -137,7 +137,7 @@ function setPageNav(name) {
 
     if (idx < n - 1) {
         var nextPage = displayedPages[idx + 1];
-        $('#next-page').html(`${nextPage.title} ->`);
+        $('#next-page').html(`${nextPage.title} &#8594;`);
         $('#next-page').attr('onclick', `page("${nextPage.name}")`);
         $('#next-page').css('visibility', 'visible');
     } else {
