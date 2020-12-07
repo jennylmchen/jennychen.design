@@ -7,8 +7,8 @@ var myShuffle = new Shuffle(document.querySelector('.my-shuffle'), {
 var state = Shuffle.ALL_ITEMS;
 var detached = false; // true if state is different from myShuffle.lastFilter
 
-var displayedPosts = [];
-var postIndices = {};
+var displayedPages = [];
+var pageIndices = {};
 
 $(document).ready(function() {
     buildShuffleList();
@@ -23,7 +23,7 @@ function buildShuffleList() {
     PAGES.forEach(function(page, idx) {
         var figure = document.createElement('figure');
         figure.classList.add('image-item', 'col-md-4');
-        figure.setAttribute('data-groups', '["' + page.group + '"]');
+        figure.setAttribute('data-groups', `["${page.group}"]`);
         figure.innerHTML = `
             <div class="aspect">
                 <div class="aspect__inner">
@@ -80,7 +80,7 @@ function page(name, showPageNav=true) {
         loadInnerPage(innerPage);
         setActiveLink();
     } else if (name) {
-        innerPage = 'pages/' + name + '.md';
+        innerPage = `pages/${name}.md`;
         loadInnerPage(innerPage);
         $('.my-link').removeClass('active');
     } else {
@@ -96,61 +96,52 @@ function page(name, showPageNav=true) {
     }
 
     if (!showPageNav) {
-        $('.post-nav-container').hide();
+        $('.page-nav-container').hide();
     } else {
-        $('.post-nav-container').show();
-        setPostNav(name);
+        $('.page-nav-container').show();
+        setPageNav(name);
     }
 }
 
 function loadInnerPage(innerPage) {
     $('.md-container').html(
-        '<zero-md src="' + innerPage + '"></zero-md>'
+        `<zero-md src="${innerPage}"></zero-md>`
     );
     $('.detail-container').show();
     $('.my-shuffle').hide();
 }
 
 function readShuffleList() {
-    var allPosts = $.map($('.my-shuffle').children('figure'), function(figure) {
-        group = $(figure).attr('data-groups').split('"')[1];
-        name = $(figure).find('.image-overlay').attr('onclick').split("('")[1].split("')")[0];
-        return {
-            name: name,
-            group: group
-        };
+    displayedPages = PAGES.filter(function(page) {
+        return myShuffle.lastFilter == Shuffle.ALL_ITEMS || page.group == myShuffle.lastFilter;
     });
 
-    displayedPosts = allPosts.filter(function(post) {
-        return myShuffle.lastFilter == Shuffle.ALL_ITEMS || post.group == myShuffle.lastFilter;
-    }).map(function(post) {
-        return post.name;
-    });
-
-    postIndices = {};
-    displayedPosts.forEach(function(name, idx) {
-        postIndices[name] = idx;
+    pageIndices = {};
+    displayedPages.forEach(function(page, idx) {
+        pageIndices[page.name] = idx;
     });
 }
 
-function setPostNav(name) {
-    var idx = postIndices[name];
-    var n = displayedPosts.length;
+function setPageNav(name) {
+    var idx = pageIndices[name];
+    var n = displayedPages.length;
 
     if (idx > 0) {
-        var prevPost = displayedPosts[idx - 1];
-        $('#prev-post').attr('onclick', 'page("' + prevPost + '")');
-        $('#prev-post').css('visibility', 'visible');
+        var prevPage = displayedPages[idx - 1];
+        $('#prev-page').html(`<- ${prevPage.title}`);
+        $('#prev-page').attr('onclick', `page("${prevPage.name}")`);
+        $('#prev-page').css('visibility', 'visible');
     } else {
-        $('#prev-post').css('visibility', 'hidden');
+        $('#prev-page').css('visibility', 'hidden');
     }
 
     if (idx < n - 1) {
-        var nextPost = displayedPosts[idx + 1];
-        $('#next-post').attr('onclick', 'page("' + nextPost + '")');
-        $('#next-post').css('visibility', 'visible');
+        var nextPage = displayedPages[idx + 1];
+        $('#next-page').html(`${nextPage.title} ->`);
+        $('#next-page').attr('onclick', `page("${nextPage.name}")`);
+        $('#next-page').css('visibility', 'visible');
     } else {
-        $('#next-post').css('visibility', 'hidden');
+        $('#next-page').css('visibility', 'hidden');
     }
 }
 

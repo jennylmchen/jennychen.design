@@ -2,19 +2,19 @@ const PAGES = [{
 	"name": "100a",
 	"image": "cover_small.png",
 	"group": "architecture",
-	"title": "Title",
+	"title": "Architecture 100a",
 	"description": "hello"
 }, {
 	"name": "11a",
 	"image": "altcover_small.jpg",
 	"group": "architecture",
-	"title": "Title",
+	"title": "Architecture 11a",
 	"description": "hello"
 }, {
 	"name": "11b",
 	"image": "axon_small.jpg",
 	"group": "architecture",
-	"title": "Title",
+	"title": "Architecture 11b",
 	"description": "hello"
 }, {
 	"name": "delsol",
