@@ -31,19 +31,19 @@ $('#filter-illustrations').click(function() {
 function page(name) {
 	var innerPage = ''
 	if (name == 'about') {
-		innerPage = 'about/index.html';
+		innerPage = 'about.md';
 		detached = true;
 		state = 'about';
 		loadInnerPage(innerPage);
 		setActiveLink();
 	} else if (name == 'contact') {
-		innerPage = 'contact/index.html';
+		innerPage = 'contact.md';
 		detached = true;
 		state = 'contact';
 		loadInnerPage(innerPage);
 		setActiveLink();
 	} else if (name) {
-		innerPage = 'projects/' + name + '/index.html';
+		innerPage = 'pages/' + name + '.md';
 		loadInnerPage(innerPage);
 		$('.my-link').removeClass('active');
 	} else {
@@ -61,7 +61,9 @@ function page(name) {
 function loadInnerPage(innerPage) {
 	$('.detail-container').show();
 	$('.my-shuffle').hide();
-	$('.detail-container').load(innerPage);
+	$('.detail-container').html(
+		'<zero-md src="' + innerPage + '"></zero-md>'
+	);
 }
 
 function setActiveLink() {
