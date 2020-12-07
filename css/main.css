@@ -19,7 +19,7 @@
     }
 }
 
-.shuffle-container {
+.main-content {
     padding-left: 10px;
     padding-top: 50px;
 }
@@ -31,7 +31,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .shuffle-container {
+    .main-content {
         padding-top: 70px;
         padding-left: 10px;
         padding-right: 50px;
@@ -45,7 +45,7 @@
 }
 
 @media screen and (min-width: 992px) {
-    .shuffle-container {
+    .main-content {
         padding-top: 70px;
         padding-left: 10px;
         padding-right: 150px;
