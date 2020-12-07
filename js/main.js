@@ -7,11 +7,19 @@ var myShuffle = new Shuffle(document.querySelector('.my-shuffle'), {
 var state = Shuffle.ALL_ITEMS;
 var detached = false; // true if state is different from myShuffle.lastFilter
 
+var displayedPosts = [];
+var postIndices = {};
+
+$(document).ready(function() {
+	readShuffleList();
+});
+
 $('#filter-all').click(function() {
 	detached = false;
 	state = Shuffle.ALL_ITEMS;
 	page('');
 	myShuffle.filter(Shuffle.ALL_ITEMS);
+	readShuffleList();
 });
 
 $('#filter-architecture').click(function() {
@@ -19,6 +27,7 @@ $('#filter-architecture').click(function() {
 	state = 'architecture';
 	page('');
 	myShuffle.filter('architecture');
+	readShuffleList();
 });
 
 $('#filter-illustrations').click(function() {
@@ -26,9 +35,10 @@ $('#filter-illustrations').click(function() {
 	state = 'illustrations';
 	page('');
 	myShuffle.filter('illustrations');
+	readShuffleList();
 });
 
-function page(name) {
+function page(name, showPageNav=true) {
 	var innerPage = ''
 	if (name == 'about') {
 		innerPage = 'about.md';
@@ -53,17 +63,68 @@ function page(name) {
 		}
 		$('.detail-container').hide();
 		$('.my-shuffle').show();
-		$('.detail-container').html('');
+		$('.md-container').html('');
 		setActiveLink();
+		return;
+	}
+
+	if (!showPageNav) {
+		$('.post-nav-container').hide();
+	} else {
+		$('.post-nav-container').show();
+		setPostNav(name);
 	}
 }
 
 function loadInnerPage(innerPage) {
-	$('.detail-container').show();
-	$('.my-shuffle').hide();
-	$('.detail-container').html(
+	$('.md-container').html(
 		'<zero-md src="' + innerPage + '"></zero-md>'
 	);
+	$('.detail-container').show();
+	$('.my-shuffle').hide();
+}
+
+function readShuffleList() {
+	var allPosts = $.map($('.my-shuffle').children('figure'), function(figure) {
+		group = $(figure).attr('data-groups').split('"')[1];
+		name = $(figure).find('.image-overlay').attr('onclick').split("('")[1].split("')")[0];
+		return {
+			name: name,
+			group: group
+		};
+	});
+
+	displayedPosts = allPosts.filter(function(post) {
+		return myShuffle.lastFilter == Shuffle.ALL_ITEMS || post.group == myShuffle.lastFilter;
+	}).map(function(post) {
+		return post.name;
+	});
+
+	postIndices = {};
+	displayedPosts.forEach(function(name, idx) {
+		postIndices[name] = idx;
+	});
+}
+
+function setPostNav(name) {
+	var idx = postIndices[name];
+	var n = displayedPosts.length;
+
+	if (idx > 0) {
+		var prevPost = displayedPosts[idx - 1];
+		$('#prev-post').attr('onclick', 'page("' + prevPost + '")');
+		$('#prev-post').css('visibility', 'visible');
+	} else {
+		$('#prev-post').css('visibility', 'hidden');
+	}
+
+	if (idx < n - 1) {
+		var nextPost = displayedPosts[idx + 1];
+		$('#next-post').attr('onclick', 'page("' + nextPost + '")');
+		$('#next-post').css('visibility', 'visible');
+	} else {
+		$('#next-post').css('visibility', 'hidden');
+	}
 }
 
 function setActiveLink() {

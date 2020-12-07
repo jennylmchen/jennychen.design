@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="https://use.typekit.net/bhc0kjo.css">
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
 
-    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
     <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
 
     <!-- Required meta tags -->
@@ -38,16 +37,22 @@
                 <a class="nav-link disabled nav-text" href="#" tabindex="-1" aria-disabled="true">-</a>
               </li>
               <li class="nav-item">
-                <a id="about-page" class="nav-link my-link" onclick="page('about')" href="#">about</a>
+                <a id="about-page" class="nav-link my-link" onclick="page('about', false)" href="#">about</a>
               </li>
               <li class="nav-item">
-                <a id="contact-page" class="nav-link my-link" onclick="page('contact')" href="#">contact</a>
+                <a id="contact-page" class="nav-link my-link" onclick="page('contact', false)" href="#">contact</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-sm-9 main-content">
-          <div class="detail-container"></div>
+          <div class="detail-container" style="display: none">
+            <div class="md-container"></div>
+            <div class="post-nav-container">
+              <a id="prev-post" href="#">prev</a>
+              <a id="next-post" href="#">next</a>
+            </div>
+          </div>
           <div class="row my-shuffle">
             <figure class="image-item col-md-4" data-groups="[&quot;architecture&quot;]">
               <div class="aspect">
@@ -138,7 +143,7 @@
                 </div>
               </div>
             </figure>
-            <figure class="image-item col-md-4" data-groups="[&quot;rocknroller&quot;]">
+            <figure class="image-item col-md-4" data-groups="[&quot;illustrations&quot;]">
               <div class="aspect">
                 <div class="aspect__inner">
                   <img class="my-image" src="images/rocknroller/jennychen_rocknrollerlogo1_small.png"/>
