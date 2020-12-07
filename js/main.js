@@ -28,7 +28,7 @@ function buildShuffleList() {
             <div class="aspect">
                 <div class="aspect__inner">
                     <img class="my-image" src="images/${page.name}/${page.image}"/>
-                    <div class="image-overlay" onclick="page('${page.name}')">
+                    <div class="image-overlay" onclick="showPage('${page.name}')">
                         <p>${page.description}</p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ function buildShuffleList() {
 $('#filter-all').click(function() {
     detached = false;
     state = Shuffle.ALL_ITEMS;
-    page('');
+    showPage('');
     myShuffle.filter(Shuffle.ALL_ITEMS);
     readShuffleList();
 });
@@ -52,7 +52,7 @@ $('#filter-all').click(function() {
 $('#filter-architecture').click(function() {
     detached = false;
     state = 'architecture';
-    page('');
+    showPage('');
     myShuffle.filter('architecture');
     readShuffleList();
 });
@@ -60,27 +60,26 @@ $('#filter-architecture').click(function() {
 $('#filter-illustrations').click(function() {
     detached = false;
     state = 'illustrations';
-    page('');
+    showPage('');
     myShuffle.filter('illustrations');
     readShuffleList();
 });
 
-function page(name, showPageNav=true) {
-    var innerPage = ''
+function showPage(name, showPageNav=true) {
     if (name == 'about') {
-        innerPage = 'about.md';
+        var innerPage = 'about.md';
         detached = true;
         state = 'about';
         loadInnerPage(innerPage);
         setActiveLink();
     } else if (name == 'contact') {
-        innerPage = 'contact.md';
+        var innerPage = 'contact.md';
         detached = true;
         state = 'contact';
         loadInnerPage(innerPage);
         setActiveLink();
     } else if (name) {
-        innerPage = `pages/${name}.md`;
+        var innerPage = `pages/${name}.md`;
         loadInnerPage(innerPage);
         $('.my-link').removeClass('active');
     } else {
@@ -129,7 +128,7 @@ function setPageNav(name) {
     if (idx > 0) {
         var prevPage = displayedPages[idx - 1];
         $('#prev-page').html(`&#8592; ${prevPage.title}`);
-        $('#prev-page').attr('onclick', `page("${prevPage.name}")`);
+        $('#prev-page').attr('onclick', `showPage("${prevPage.name}")`);
         $('#prev-page').css('visibility', 'visible');
     } else {
         $('#prev-page').css('visibility', 'hidden');
@@ -138,7 +137,7 @@ function setPageNav(name) {
     if (idx < n - 1) {
         var nextPage = displayedPages[idx + 1];
         $('#next-page').html(`${nextPage.title} &#8594;`);
-        $('#next-page').attr('onclick', `page("${nextPage.name}")`);
+        $('#next-page').attr('onclick', `showPage("${nextPage.name}")`);
         $('#next-page').css('visibility', 'visible');
     } else {
         $('#next-page').css('visibility', 'hidden');
