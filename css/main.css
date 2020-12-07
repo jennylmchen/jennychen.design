@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+.fixed-nav {
+    margin-top: 20px;
+}
+
 @media screen and (min-width: 576px) {
     .fixed-nav {
         position: fixed;
@@ -15,9 +19,10 @@
     }
 }
 
-.shuffle-container {
+.main-content {
     padding-left: 10px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .image-item {
@@ -27,8 +32,9 @@
 }
 
 @media screen and (min-width: 768px) {
-    .shuffle-container {
+    .main-content {
         padding-top: 70px;
+        padding-bottom: 70px;
         padding-left: 10px;
         padding-right: 50px;
     }
@@ -41,8 +47,9 @@
 }
 
 @media screen and (min-width: 992px) {
-    .shuffle-container {
+    .main-content {
         padding-top: 70px;
+        padding-bottom: 70px;
         padding-left: 10px;
         padding-right: 150px;
     }
@@ -134,4 +141,21 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.page-nav {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-nav a {
+    color: #333 !important;
+    font-family: novel-sans-pro;
+}
+
+.page-nav a:hover {
+    color: #f8674f !important;
+    font-family: novel-sans-pro;
 }
