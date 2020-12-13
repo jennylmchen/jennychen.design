@@ -53,12 +53,6 @@ const PAGES = [{
 	"title": "Row Houses Across Space",
 	"description": "Row Houses Across Space (2020)"
 }, {
-	"name": "rocknroller",
-	"image": "jennychen_rocknrollerlogo1_small.png",
-	"group": "illustrations",
-	"title": "Title",
-	"description": "Rock N Roller Logo (2020)"
-}, {
 	"name": "ssashirt",
 	"image": "ssashirt_small.png",
 	"group": "illustrations",
