@@ -88,6 +88,7 @@ function changeFilter(filter) {
 function showPage(name) {
     var showPageNav = true;
     if (name == 'about') {
+        document.title = 'About';
         var innerPage = 'about.md';
         detached = true;
         state = 'about';
@@ -95,6 +96,7 @@ function showPage(name) {
         loadInnerPage(innerPage);
         setActiveLink();
     } else if (name == 'contact') {
+        document.title = 'Contact';
         var innerPage = 'contact.md';
         detached = true;
         state = 'contact';
@@ -102,6 +104,9 @@ function showPage(name) {
         loadInnerPage(innerPage);
         setActiveLink();
     } else if (name) {
+        var idx = pageIndices[name];
+        var page = displayedPages[idx];
+        document.title = page.title;
         var innerPage = `pages/${name}.md`;
         loadInnerPage(innerPage);
         $('.my-link').removeClass('active');
@@ -110,6 +115,7 @@ function showPage(name) {
             detached = false;
             state = myShuffle.lastFilter;
         }
+        document.title = 'Jenny Chen';
         $('.detail-container').hide();
         $('.my-shuffle').show();
         $('.md-container').html('');
