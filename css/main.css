@@ -1,3 +1,7 @@
+* {
+    font-family: novel-sans-pro;
+}
+
 .my-shuffle {
     position: relative;
     overflow: hidden;
@@ -66,13 +70,11 @@
 .nav-title {
     color: #333 !important;
     font-size: 1.5rem;
-    font-family: novel-sans-pro;
     font-weight: 700;
 }
 
 .nav-text {
     color: #333 !important;
-    font-family: novel-sans-pro;
 }
 
 .my-link:hover,
@@ -80,14 +82,12 @@
     color: #f8674f !important;
     padding-top: 0.3rem !important;
     padding-bottom: 0.3rem !important;
-    font-family: novel-sans-pro
 }
 
 .my-link {
     color: #999 !important;
     padding-top: 0.3rem !important;
     padding-bottom: 0.3rem !important;
-    font-family: novel-sans-pro
 }
 
 .aspect {
@@ -130,7 +130,6 @@
 }
 
 .image-overlay p {
-    font-family: novel-sans-pro;
     color: #666;
 }
 
@@ -152,10 +151,8 @@
 
 .page-nav a {
     color: #333 !important;
-    font-family: novel-sans-pro;
 }
 
 .page-nav a:hover {
     color: #f8674f !important;
-    font-family: novel-sans-pro;
 }

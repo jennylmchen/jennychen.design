@@ -134,7 +134,11 @@ function showPage(name) {
 
 function loadInnerPage(innerPage) {
     $('.md-container').html(
-        `<zero-md src="${innerPage}"></zero-md>`
+        `<zero-md src="${innerPage}">
+            <template>
+                <link rel="stylesheet" href="css/main.css"
+            </template>
+        </zero-md>`
     );
     $('.detail-container').show();
     $('.my-shuffle').hide();
