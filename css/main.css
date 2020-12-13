@@ -123,6 +123,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    padding: 10px;
 }
 
 .image-overlay:hover {
@@ -131,6 +132,7 @@
 
 .image-overlay p {
     color: #666;
+    text-align: center;
 }
 
 .my-image {
