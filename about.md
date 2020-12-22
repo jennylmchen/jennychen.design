@@ -11,4 +11,4 @@ In my free time, I [walk around with a sketchbook](http://www.urbansketchers.org
 - graphic designer @ *[Business Review Berkeley](https://businessreview.berkeley.edu/)*
 - education outreach @ *[Innovative Design](https://innovativedesign.club/)*
 
-Connect with me on [Linkedin](https://www.linkedin.com/in/jennylmchen/), [reach out](mailto:jchenlm@gmail.com) to talk about collaborations/freelancing or [here](jennychen.design/contact) for other social links!
+Connect with me on [Linkedin](https://www.linkedin.com/in/jennylmchen/), [reach out](mailto:jchenlm@gmail.com) to talk about collaborations/freelancing or [here](https://jennychen.design/contact) for other social links!
