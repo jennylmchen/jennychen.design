@@ -1,7 +1,10 @@
 ## about me:
-<img style="float: right;" src="" width="20%" />
 
+<img style="float:right;" src="images/me.jpg" width="50%" alt="Me" /> 
+
+<p>
 Hi! I'm a third year student at UC Berkley studying architecture and computer science. A background in architecture helps me visualize space/objects in both 2D and 3D. I am also trained to create solutions that respond to real, human needs. I am interested in product and graphic design, data-driven urban design, and everything else in between. Currently looking forward to my next creative outlet :)
+ </p>
 
 In my free time, I [walk around with a sketchbook](http://www.urbansketchers.org/), figure skate,  dance, play video games, and hunt for the next hobby that I will spend all my time on for a while but leave it in a corner to collect dust forever.
 
