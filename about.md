@@ -7,7 +7,10 @@ In my free time, I [walk around with a sketchbook](http://www.urbansketchers.org
 
 
 ### previously, I've been
-- SWE + PM Intern @ Microsoft
+- swe + pm Intern @ Microsoft
+- urban design intern @ Urban Redevelopment Authority, Singapore
+
+### currently, I am
 - graphic designer @ *[Business Review Berkeley](https://businessreview.berkeley.edu/)*
 - education outreach @ *[Innovative Design](https://innovativedesign.club/)*
 
