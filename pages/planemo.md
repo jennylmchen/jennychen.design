@@ -7,9 +7,11 @@
 
 I made this game with a team of 4 for our final project in the Games Design and Development Decal ([gdd](https://gamedesign.berkeley.edu/)). As the only artist, I illustrated all the assets and animated them in Unity.
 
+<p>
 <img src="../images/planemo/planemo.png" alt="In Game Screenshot" width:"100%">
 <img src="../images/planemo/planemo2.png" alt="In Game Screenshot" width:"100%">
 <img src="../images/planemo/planemo3.png" alt="In Game Screenshot" width:"100%">
+</p>
 
 
 You can download it [here](planemogame.itch.io)!
