@@ -1,11 +1,11 @@
 ## Del Sol Plaza - Urban Design Study
 
-**Discipline**: Urban Planning
-**Duration**: 1 week
+**Discipline**: Urban Planning<br>
+**Duration**: 1 week<br>
 **Tools**: Procreate
 
 <p align="center">
-<img src="../images/delsol/Untitled_Artwork 6.jpg" alt="Axon" width="100%" /> 
+<img src="../images/delsol/cover.jpg" alt="Axon" width="100%" /> 
 </p>
 
 <p align=center>
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-<img src="../images/delsol/IMG_0411.JPG.jpg" alt="Plan" width="100%" /> 
+<img src="../images/delsol/IMG_0411.JPG" alt="Plan" width="100%" /> 
 </p>
 
 <p align=center>
