@@ -1,10 +1,10 @@
 ## Article Headers
 
 **For**: Business Review At Berkeley<br>
-**Duration**: Fall 2018 - Present 
+**Duration**: Fall 2018 - Present <br>
 **Tools**: Procreate, Adobe Photoshop<br>
 
-<p> This is a series of article headers I illustrated for [Business Review Berkeley](https://businessreview.berkeley.edu/), UC Berkeley's Premier Undergraduate Business Journal. </p>
+<p> This is a series of article headers I illustrated for Business Review At Berkeley, UC Berkeley's Premier Undergraduate Business Journal. </p>
 
 <img src="../images/brb/brb_sheddinglight.png" alt="" width="100%" />
 <img src="../images/brb/brb_playingthegame.png" alt="" width="100%"/>
