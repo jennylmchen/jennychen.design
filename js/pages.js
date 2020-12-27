@@ -30,7 +30,7 @@ const PAGES = [{
 	"description": "Urban Design Study (2020)"
 }, {
 	"name": "planemo",
-	"image": "cover_small.png",
+	"image": "planemo.png",
 	"group": "game",
 	"title": "Planemo",
 	"description": "Planemo (2019)"
