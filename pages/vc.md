@@ -1,22 +1,32 @@
 # Highways and Byways
 <p>Studio Project (Spring 2023)<br>
 Part of "A Little Bit of Syracuse" in collaboration with Drawing Architecture Studio.<p>
-	
-<p> Eight ordinary buildings in Syracuse were recreated in a hand-made model. The use of abstraction, textures and imprecise edges creates a feeling of vernacularity. </p>
 
-<p align="center"><img src="../images/vc/florist1.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/florist2.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/korean1.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/korean2.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/auto1.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/auto2.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/kfc1.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/kfc2.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/gas1.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/gas2.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/bottle1.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/bottle2.jpg" alt="abc" width="50%" /></p>
-<p align="center"><img src="../images/vc/dunkin1.jpg" alt="abc" width="50%" /></p>
+***
+
+![Final Review](../images/vc/IMG_2971.JPG)
+![Everson 1](../images/vc/IMG_8193.JPG)
+![Everson 2](../images/vc/IMG_8139.JPG)
+![Final Review](../images/vc/IMG_3572.JPG)
+![Final Review](../images/vc/IMG_8183.JPG)
+![Final Review](../images/vc/IMG_8184.JPG)
+
+	
+<p> Eight ordinary buildings in Syracuse were recreated in a hand-made models. The use of abstraction, textures and imprecise edges creates a feeling of vernacularity. </p>
+
+<p align="center"><img src="../images/vc/florist1.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/florist2.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/korean1.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/korean2.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/auto1.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/auto2.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/kfc1.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/kfc2.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/gas1.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/gas2.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/bottle1.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/bottle2.jpg" alt="abc" width="70%" /></p>
+<p align="center"><img src="../images/vc/dunkin1.JPG" alt="abc" width="70%" /></p>
 
 <p> The other component of the exhibition is an eighty-foot scroll drawing that depicts the city in the axonometric style of a traditional Chinese scroll painting. The lack of specific origin point allows scenes to flow seamlessly across the page. </p>
 
