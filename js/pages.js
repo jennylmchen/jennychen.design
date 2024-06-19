@@ -12,7 +12,7 @@ const PAGES = [{
 	"description": "Pla2a: Activation of Public Space Through Soft Enclosure (2023)"
 }, {
 	"name": "vc",
-	"image": "cover2.jpg",
+	"image": "cover.jpg",
 	"group": "architecture",
 	"title": "Syracuse",
 	"description": "A Little Bit of Syracuse (2023)"
