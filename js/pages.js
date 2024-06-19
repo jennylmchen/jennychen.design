@@ -1,4 +1,28 @@
 const PAGES = [{
+	"name": "thesis",
+	"image": "cover.jpg",
+	"group": "architecture",
+	"title": "Mile Marker",
+	"description": "Mile Marker: An Architect's Catalog of Designs for the Last Mile of Parcel Delivery (2024)"
+}, {
+	"name": "objects",
+	"image": "deform.jpg",
+	"group": "architecture",
+	"title": "Waste Too, Want Too",
+	"description": "Waste Too, Want Too (2023)"
+}, {
+	"name": "vc",
+	"image": "cover.jpg",
+	"group": "architecture",
+	"title": "Syracuse",
+	"description": "A Little Bit of Syracuse (2023)"
+}, {
+	"name": "busan",
+	"image": "typologies.png",
+	"group": "architecture",
+	"title": "Nature's Edge",
+	"description": "The Urban Designer's Guide to the Nature's Edge (2023)"
+},	{
 	"name": "100a",
 	"image": "cover_small.png",
 	"group": "architecture",

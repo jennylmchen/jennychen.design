@@ -1,4 +1,4 @@
-## Planemo
+# Planemo
 
 **Duration**: March - May 2019 <br>
 **Tools**: Unity 3D, Adobe Photoshop, Procreate <br>
