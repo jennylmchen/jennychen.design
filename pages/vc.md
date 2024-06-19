@@ -1,18 +1,21 @@
 # Highways and Byways
 <p>Studio Project (Spring 2023)<br>
-Part of "A Little Bit of Syracuse" in collaboration with Drawing Architecture Studio.<p>
+<p>
 
 ***
-<p align="center"><img src="../images/vc/IMG_2971.JPG" width="100%" /></p>
-<p align="center"><img src="../images/vc/IMG_8193.JPG" width="100%" /></p>
+A Little Bit of Syracuse was a Studio project in collaboration with Beijing-based Drawing Architecture Studio. Students drew from visual narrative techniques of Japanese graphic novels and traditional Chinese landscape painting to create an eighty-foot long scroll drawing, as well as a number of miniature models of ordinary buildings in the city.
+
+The studio's work was displayed at Everson Museum of Art from September 16, 2023-December 31, 2023. 
+
 <p align="center"><img src="../images/vc/IMG_8139.JPG" width="100%" /></p>
+<p align="center"><img src="../images/vc/IMG_8193.JPG" width="100%" /></p>
 <p align="center"><img src="../images/vc/IMG_3572.JPG" width="100%" /></p>
 <p align="center"><img src="../images/vc/IMG_8183.JPG" width="100%" /></p>
 <p align="center"><img src="../images/vc/IMG_8184.JPG" width="100%" /></p>
 
 ***
 	
-<p> Eight ordinary buildings in Syracuse were recreated in a hand-made models. The use of abstraction, textures and imprecise edges creates a feeling of vernacularity. </p>
+<p> Eight ordinary, yet visually interesting buildings in Syracuse were recreated through a series of hand-made models. The use of abstraction, textures and imprecise edges creates a feeling of vernacularity. </p>
 
 <p align="center"><img src="../images/vc/florist1.jpg" alt="abc" width="70%" /></p>
 <p align="center"><img src="../images/vc/florist2.jpg" alt="abc" width="70%" /></p>
@@ -28,7 +31,7 @@ Part of "A Little Bit of Syracuse" in collaboration with Drawing Architecture St
 <p align="center"><img src="../images/vc/bottle2.jpg" alt="abc" width="70%" /></p>
 <p align="center"><img src="../images/vc/dunkin1.JPG" alt="abc" width="70%" /></p>
 
-<p> The other component of the exhibition is an eighty-foot scroll drawing that depicts the city in the axonometric style of a traditional Chinese scroll painting. The lack of specific origin point allows scenes to flow seamlessly across the page. </p>
+<p> The other component of the exhibition is an eighty-foot scroll drawing that depicts the city. The lack of specific origin point allows scenes to flow seamlessly across the page. </p>
 
 <p align="center"><img src="../images/vc/scroll.jpg" alt="scroll" width="100%" /></p>
 
