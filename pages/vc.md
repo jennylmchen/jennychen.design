@@ -3,14 +3,14 @@
 Part of "A Little Bit of Syracuse" in collaboration with Drawing Architecture Studio.<p>
 
 ***
+<p align="center"><img src="../images/vc/IMG_2971.JPG" width="100%" /></p>
+<p align="center"><img src="../images/vc/IMG_8193.JPG" width="100%" /></p>
+<p align="center"><img src="../images/vc/IMG_8139.JPG" width="100%" /></p>
+<p align="center"><img src="../images/vc/IMG_3572.JPG" width="100%" /></p>
+<p align="center"><img src="../images/vc/IMG_8183.JPG" width="100%" /></p>
+<p align="center"><img src="../images/vc/IMG_8184.JPG" width="100%" /></p>
 
-![Final Review](../images/vc/IMG_2971.JPG)
-![Everson 1](../images/vc/IMG_8193.JPG)
-![Everson 2](../images/vc/IMG_8139.JPG)
-![Final Review](../images/vc/IMG_3572.JPG)
-![Final Review](../images/vc/IMG_8183.JPG)
-![Final Review](../images/vc/IMG_8184.JPG)
-
+***
 	
 <p> Eight ordinary buildings in Syracuse were recreated in a hand-made models. The use of abstraction, textures and imprecise edges creates a feeling of vernacularity. </p>
 
