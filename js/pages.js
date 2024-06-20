@@ -41,6 +41,12 @@ const PAGES = [{
 	"title": "Rural Intensification",
 	"description": "Rural Intensification (2024)"
 }, {
+	"name": "biafra",
+	"image": "cover.png",
+	"group": "architecture",
+	"title": "Bight of Biafra",
+	"description": "The Architecture of the Bight of Biafra (2024)"
+}, {
 	"name": "dubois",
 	"image": "cover.jpg",
 	"group": "illustrations",
