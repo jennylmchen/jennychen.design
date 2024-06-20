@@ -107,6 +107,12 @@ const PAGES = [{
 	"title": "Pandemic Masque",
 	"description": "Pandemic Masque (2020)"
 }, {
+	"name": "urbn",
+	"image": "cover2.png",
+	"group": "illustrations",
+	"title": "URBN",
+	"description": "URBN Clothing Rental for Digital Events (2021)"
+}, {
 	"name": "100a",
 	"image": "cover_small.png",
 	"group": "architecture",

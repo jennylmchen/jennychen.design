@@ -20,5 +20,5 @@ Point cloud object from photogrammetry (left) and a render of it (right).</p>
 
 
 
-<a href="http://jennylmchen.github.io/objects"><img src="../images/objects/cover.png" alt="website preview" width="100%"/></a>
+<a href="http://jennylmchen.github.io/objects"><img src="../images/objects/cover.png" alt="website preview" width="90%"/></a>
 Part two of the project explores taking imprints of the deformed object, along with other post-consumer waste to create new use cases.
