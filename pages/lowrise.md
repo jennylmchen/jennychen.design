@@ -9,8 +9,8 @@ In all, the combination of design gestures encourages the formation of an amicab
 
 <img src="../images/lowrise/ext1.png" width="100%" />
 <img src="../images/lowrise/elevation1.jpg" width="100%" />
-<img src="../images/lowrise/interior1.png" width="100%" />
-<img src="../images/lowrise/interior2.png" width="100%" />
+<img src="../images/lowrise/Interior1.png" width="100%" />
+<img src="../images/lowrise/Interior2.png" width="100%" />
 
 <img src="../images/lowrise/siteplan.png" width="100%" />
 <p align="center"><img src="../images/lowrise/analytical.png" width="50%" /></p>
