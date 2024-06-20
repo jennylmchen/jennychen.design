@@ -93,7 +93,7 @@ const PAGES = [{
 	"image": "s1edited.png",
 	"group": "architecture",
 	"title": "Wildfires",
-	"description": "Wildfires (2021)"
+	"description": "Wildfires: In & Of Nature (2021)"
 }, {
 	"name": "100b",
 	"image": "rainy_day.png",
