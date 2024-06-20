@@ -71,6 +71,12 @@ const PAGES = [{
 	"title": "Digital Flaneurs",
 	"description": "Digital Flaneurs of Harajuku (2023)"
 }, {
+	"name": "wyoming",
+	"image": "wyoming.png",
+	"group": "architecture",
+	"title": "Near West Side",
+	"description": "Near West Side Urban Revival (2023)"
+}, {
 	"name": "606",
 	"image": "cover.png",
 	"group": "architecture",
